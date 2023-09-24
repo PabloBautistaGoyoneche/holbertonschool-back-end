@@ -36,9 +36,8 @@ if __name__ == "__main__":
             We create a list of dictionaries that represent
             the current user's tasks with relevant information.
         """
-        user_todos = [{"username": user["username"], "task":
-                       todo["title"], "completed": todo["completed"]}
-                       for todo in modu]
+        user_todos = [{"username": user["username"], "task":todo["title"],
+                       "completed": todo["completed"]}for todo in modu]
 
         """
             We add the user's task list to
