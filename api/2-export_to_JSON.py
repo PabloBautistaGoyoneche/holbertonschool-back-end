@@ -3,7 +3,7 @@
 import json
 import requests
 import sys
-""" 
+"""
     We import the necessary libraries: 'json' to work with JSON,
     'requests' to make HTTP requests and 'sys' to handle
     command line arguments.
