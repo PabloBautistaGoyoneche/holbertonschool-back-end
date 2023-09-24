@@ -35,7 +35,8 @@ if __name__ == "__main__":
         of tasks completed over the total.
     """
     print("Employee {} is done with tasks({}/{}):".format(
-            user.get("name"), Kanryo_shita_tasuku, Tasuku_no_gokei))
+        user.get("name"), Kanryo_shita_tasuku, Tasuku_no_gokei)
+        )
 
     """ We iterate over the completed tasks and print their titles. """
     [print(f"\t {todo['Taitoru']}")
